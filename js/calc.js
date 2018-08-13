@@ -29,7 +29,7 @@ function result(operator,num1,num2){
   } else if (operator === "*") {
      turkey = num1 * num2;
   } else if (operator === "/") {
-     turkey = num1 / num2;
+    turkey = num1 / num2;
   }
   
   console.log(turkey)
