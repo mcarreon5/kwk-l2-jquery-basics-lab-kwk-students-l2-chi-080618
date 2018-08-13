@@ -20,10 +20,17 @@ function doMath(){
 }
 
 function result(operator,num1,num2){
-  let turkey = num1 +operator +num2 ;
+  
   if (operator === "+") {
-    return +
+    let turkey = num1 + num2;
+  } else if (operator === "-") {
+    let turkey = num1 - num2;
+  } else if (operator === "*") {
+    let turkey = num1 * num2;
+  } else if (operator === "/") {
+    let turkey = num1 / num2;
   }
+  
   console.log(turkey)
   return turkey
 }
