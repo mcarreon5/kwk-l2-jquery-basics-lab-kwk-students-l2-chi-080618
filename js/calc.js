@@ -22,6 +22,7 @@ function doMath(){
 function result(operator,num1,num2){
   
   if (operator === "+") {
+    console.log("gets")
     let turkey = num1 + num2;
   } else if (operator === "-") {
     let turkey = num1 - num2;
