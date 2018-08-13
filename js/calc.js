@@ -22,6 +22,6 @@ function doMath(){
 function result(operator,num1,num2){
   let turkey = num1 +operator +num2 ;
   console.log(turkey)
-  return total
+  return turkey
 }
   
