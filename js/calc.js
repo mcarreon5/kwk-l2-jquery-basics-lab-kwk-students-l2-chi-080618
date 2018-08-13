@@ -1,7 +1,7 @@
 //add your code here
 $(document).ready(function(){
   doMath();
-  result();
+  //result();
 });
 var num1 = $('#number1');
 var num2 = $('#number2');
@@ -22,6 +22,6 @@ function doMath(){
 function result(operator,num1,num2){
   let turkey = num1 + num2;
   console.log(turkey)
-	return result.val(turkey)
+//	return result.val(turkey)
 }
   
