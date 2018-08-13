@@ -1,7 +1,6 @@
 //add your code here
 $(document).ready(function(){
   domath();
-  result();
 });
 var num1 = $('#number1');
 var num2 = $('#number2');
