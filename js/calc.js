@@ -7,6 +7,12 @@ var num2 = $('#number2');
 var operator = $('#operation');
 var result = $('#result');
 
+function result(operator,num1,num2){
+  let turkey = num1 + num2;
+  console.log(turkey)
+	return result.val(turkey)
+}
+
 function doMath(){
   $('#equals').on('click', function(){
     num1 = parseFloat(num1.val());
@@ -14,9 +20,4 @@ function doMath(){
     operator = operator.val();
 	  result(operator,num1,num2);
   });
-}
-function result(operator,num1,num2){
-  let turkey = num1 + num2;
-  console.log(turkey)
-	return result.val(turkey)
 }
