@@ -21,17 +21,17 @@ function doMath(){
 
 function result(operator,num1,num2){
   $('#equals').on('click', function(){
-  let turkey;
-  if (operator === "+") {
-     turkey = num1 + num2;
-  } else if (operator === "-") {
-     turkey = num1 - num2;
-  } else if (operator === "*") {
-     turkey = num1 * num2;
-  } else if (operator === "/") {
-    turkey = num1 / num2;
-  }
-  });
+    let turkey;
+    if (operator === "+") {
+       turkey = num1 + num2;
+    } else if (operator === "-") {
+       turkey = num1 - num2;
+    } else if (operator === "*") {
+       turkey = num1 * num2;
+    } else if (operator === "/") {
+      turkey = num1 / num2;
+    }
+    });
   
   $("#result").val(turkey);
 }
