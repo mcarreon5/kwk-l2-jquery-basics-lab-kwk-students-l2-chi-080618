@@ -12,8 +12,8 @@ var result = $('#result');
 function doMath(){
   $('#equals').on('click', function(){
     num1 = parseFloat(num1);
-    num2 = parseFloat(num2.val());
-    operator = operator.val();
+    num2 = parseFloat(num2);
+    operator = operator;
 	  //result(operator,num1,num2);
   });
   
