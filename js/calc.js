@@ -17,6 +17,6 @@ function doMath(){
 }
 function result(operator,num1,num2)
 {
-result = num1operatornum2
+let result = num1operatornum2;
 	return result
-	
+}
