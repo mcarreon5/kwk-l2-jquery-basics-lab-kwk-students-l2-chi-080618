@@ -16,8 +16,9 @@ function doMath(){
 	  result(operator,num1,num2);
   });
 }
-function result(operator,num1,num2)
-{
-let turkey = num1 + num2;
+function result(operator,num1,num2){
+  $('#equals').on('click', function(){
+  let turkey = num1 + num2;
 	return result.val(turkey)
+  });
 }
