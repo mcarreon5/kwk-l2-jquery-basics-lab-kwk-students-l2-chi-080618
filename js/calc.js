@@ -24,4 +24,5 @@ function result(operator,num1,num2){
   let turkey = num1 + num2;
   console.log(turkey)
 	return result.val(turkey)
-  }
+}
+  
