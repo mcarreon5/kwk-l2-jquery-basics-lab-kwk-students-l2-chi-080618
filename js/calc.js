@@ -22,6 +22,7 @@ function doMath(){
 function result(operator,num1,num2){
   let turkey = num1 + num2;
   console.log(turkey)
+  return 5
 //	return result.val(turkey)
 }
   
