@@ -5,6 +5,7 @@ $(document).ready(function(){
 var num1 = $('#number1');
 var num2 = $('#number2');
 var operator = $('#operation');
+var result = $('#result');
 
 function doMath(){
   $('#equals').on('click', function(){
