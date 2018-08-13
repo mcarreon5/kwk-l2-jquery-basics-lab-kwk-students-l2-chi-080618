@@ -34,6 +34,6 @@ function result(operator,num1,num2){
   }
   });
   
-  return turkey
+  $("input:text").val(turkey);
 }
   
