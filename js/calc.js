@@ -32,7 +32,6 @@ function result(operator,num1,num2){
     turkey = num1 / num2;
   }
   
-  console.log(turkey)
   return turkey
 }
   
