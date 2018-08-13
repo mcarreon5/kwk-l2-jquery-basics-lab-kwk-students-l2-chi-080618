@@ -11,7 +11,7 @@ function doMath(){
     num = parseFloat(num1.val());
      num2 = parseFloat(num2.val());
    operator = operator.val();
-	result = (num1operatornum2)
+	result = (num1,operator,num2)
 	return result
   });
 }
