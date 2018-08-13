@@ -18,6 +18,6 @@ function doMath(){
 }
 function result(operator,num1,num2)
 {
-let turkey = num1 operator num2;
+let turkey = num1 + num2;
 	return result.val(turkey)
 }
