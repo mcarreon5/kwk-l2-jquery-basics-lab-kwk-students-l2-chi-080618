@@ -9,7 +9,7 @@ var result = $('#result');
 
 function doMath(){
   $('#equals').on('click', function(){
-    num = parseFloat(num1.val());
+    num1 = parseFloat(num1.val());
      num2 = parseFloat(num2.val());
    operator = operator.val();
 	
