@@ -32,6 +32,6 @@ function result(operator,num1,num2){
     turkey = num1 / num2;
   }
   
-  total.value
+  total.value;
 }
   
