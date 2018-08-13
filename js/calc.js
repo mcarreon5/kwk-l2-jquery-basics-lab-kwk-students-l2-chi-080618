@@ -17,7 +17,6 @@ function doMath(){
     operator = operator.val();
 	  result(operator,num1,num2);
   });
-  
 }
 
 function result(operator,num1,num2){
